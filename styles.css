@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+
+    font-family: "Happy Monkey", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    background:linear-gradient(#a2d2ff,rgb(135, 145, 151));
+   /*  background: #a2d2ff; */
+    color:#ffffff; 
+
+}
+
+h1, h2, h3, h4, p {
+    text-shadow:0px 0px 1px black;
+}
+ #bday-date {
+    background:#EFB0C9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+#bday-age {
+
+    background:#EFB0C9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+  
+}
+
+
+.birthday-heading::after {
+  content: "\01F389\0000a0"; /* Birthday Cake and a non-breaking space */
+  font-size: 40px;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius:100% ;
+    border:9px solid;
+    border-color: #EFB0C9;
+   
+}
+
+#header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* flex :
+justify-content:start center  space-around, space-evenly space-between
+ align-items: start, center, end
+DOWN IS A GIFT SECTION OF THE WEB SITE
+*/
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    content: "\1F973"; /*  Party Face  E-moji*/
+    font-size: 40px;
+}
+
+
+.gift-hint {
+    margin-top: 0;
+    
+  
+}
+/* class parent*/ 
+.gift-img {
+    /* to image to be centered need margin because it is in div */
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    /*  background:linear-gradient(lightskyblue,white); */
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover; /* squeezes image */
+
+  /*  transition: background-image 0.5s ease-in-out;  Smooth transition */
+    cursor: pointer;
+    
+    
+}
+/* images/family ID for image.jpg"*/
+#gift-img-family:hover {
+    background-image: url("images/family.jpg");
+    background-size: cover;
+    width: 40%;
+    height: 40%;
+    border: 6px solid white;
+    border-radius: 10px;
+
+   object-fit: fill;
+ 
+}
+/* images/genius.gif  ID other image "*/
+
+#gift-img-cheers:hover {
+      background-image: url("images/cheers.gif");
+
+}
+#gift-img-cheers {
+    height: 200px;
+ 
+}
+
+#gift-img-genius:hover {
+      background-image: url("images/genius.gif");
+
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto 20px;
+   font-style: italic;
+
+    
+
+}
+/*LINK to be color white NOT blue */ 
+a {
+    color: white;
+    text-shadow: 0px 0px 4px #1f6ab1;
+    
+}
+
+
