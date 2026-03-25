@@ -90,14 +90,8 @@ DOWN IS A GIFT SECTION OF THE WEB SITE
 }
 /* images/family ID for image.jpg"*/
 #gift-img-family:hover {
-    background-image: url("images/family.jpg");
-    background-size: cover;
-    width: 40%;
-    height: 40%;
-    border: 6px solid white;
-    border-radius: 10px;
-
-   object-fit: fill;
+    background-image: url("images/happy.gif");
+    
  
 }
 /* images/genius.gif  ID other image "*/
